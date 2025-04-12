@@ -5,3 +5,12 @@ saves
 video
 __pycache__
 .ipynb_checkpoints/
+
+# Additional recommended entries
+.vscode/
+*.pyc
+.env
+*.env
+environment.yml
+.zsh*
+
