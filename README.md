@@ -3,6 +3,15 @@ Deep Reinforcement Learning Hands-On, Third Edition</h1>
 <p align="center">This is the code repository for <a href ="https://www.packtpub.com/en-us/product/deep-reinforcement-learning-hands-on-third-edition/9781835882702"> Deep Reinforcement Learning Hands-On, Third Edition</a>, published by Packt.
 </p>
 
+---
+
+### 📘 About This Fork
+
+This is a personal fork of [Maxim Lapan’s *Deep Reinforcement Learning Hands-On (3rd Edition)*](https://github.com/PacktPublishing/Deep-Reinforcement-Learning-Hands-On-Third-Edition).
+
+I’m using it for self-study, annotation, and refactoring. I may also adapt code for domain-specific RL experiments.
+The original README follows below.
+
 <h2 align="center">
 A practical and easy-to-follow guide to RL from Q-learning and DQNs to PPO and RLHF
 </h2>
