@@ -1,7 +1,8 @@
+# %%
 import random
 from typing import List
 
-
+# %%
 class Environment:
     def __init__(self):
         self.steps_left = 10
@@ -21,7 +22,7 @@ class Environment:
         self.steps_left -= 1
         return random.random()
 
-
+# %%
 class Agent:
     def __init__(self):
         self.total_reward = 0.0
@@ -32,7 +33,7 @@ class Agent:
         reward = env.action(random.choice(actions))
         self.total_reward += reward
 
-
+# %%
 if __name__ == "__main__":
     env = Environment()
     agent = Agent()
@@ -41,3 +42,5 @@ if __name__ == "__main__":
         agent.step(env)
 
     print("Total reward got: %.4f" % agent.total_reward)
+
+# %%
